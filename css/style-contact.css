@@ -1,0 +1,111 @@
+@import url(./fonts/fonts.css);
+@import url(./components/header.css);
+@import url(./components/footer.css);
+
+html {
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+  color: black;
+}
+
+*,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  background-color: red;
+}
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(43, 2, 43);
+  /* background-color: #fff; */
+}
+.first-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+.get-in-touch {
+  margin-top: 128px;
+  margin-bottom: 128px;
+
+  width: 1280px;
+
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 14%;
+
+  color: #1e1b1b;
+  border: 1px solid red;
+}
+.get-in-touch-left {
+  width: 47%;
+}
+.get-in-touch-left > h1 {
+  margin-top: 0;
+  font-weight: 800;
+  font-size: 74px;
+  line-height: 84px;
+  letter-spacing: -0.03em;
+}
+.get-in-touch-input {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: #1e1b1b;
+  padding-bottom: 32px;
+}
+.get-in-touch-input input {
+  width: 100%;
+  border: none;
+  height: 72px;
+  background: #f2f2f2;
+}
+.get-in-touch-input input::placeholder {
+  padding-left: 40px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #1e1b1b;
+}
+.btn-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ff6433;
+  border-radius: 12px;
+  border: none;
+  width: 203px;
+  height: 64px;
+  cursor: pointer;
+
+  color: #fff;
+  font-size: 18px;
+  line-height: 32px;
+}
+.btn-1:hover {
+  background: #cf4e27;
+}
+.btn-1:active {
+  scale: 0.95;
+  opacity: 0.95;
+}
+
+.get-in-touch-right {
+  width: 32%;
+}
+.get-in-touch-right p:first-child {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 175%;
+  opacity: 0.6;
+}
+.get-in-touch-right p:last-child {
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.03em;
+}

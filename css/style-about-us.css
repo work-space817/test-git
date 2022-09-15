@@ -1,0 +1,99 @@
+@import url(./fonts/fonts.css);
+@import url(./components/header.css);
+@import url(./components/cta.css);
+@import url(./components/footer.css);
+
+html {
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+  color: black;
+}
+
+*,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  background-color: red;
+}
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(43, 2, 43);
+  /* background-color: #fff; */
+}
+.first-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f2f2f2;
+}
+.our-services {
+  margin-top: 128px;
+  margin-bottom: 128px;
+
+  width: 1280px;
+
+  display: flex;
+  justify-content: space-between;
+
+  color: #f2f2f2;
+}
+.our-services-image {
+  width: 40%;
+  height: 550px;
+  background-position: left;
+  background-image: url(../img/picture/about-us/header-bg.png);
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.our-services-info {
+  width: 776px;
+  height: 550px;
+  padding: 0px 80px 0px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 2;
+  background: #1e1b1b;
+}
+.our-services-info h1 {
+  margin: 0;
+  margin-bottom: 15px;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 84px;
+  letter-spacing: -0.03em;
+}
+.our-services-info p {
+  margin: 0;
+  margin-bottom: 48px;
+  padding-right: 15px;
+  font-size: 18px;
+  line-height: 175%;
+}
+.btn-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ff6433;
+  border-radius: 12px;
+  border: none;
+  width: 203px;
+  height: 64px;
+  cursor: pointer;
+
+  color: #fff;
+  font-size: 18px;
+  line-height: 32px;
+}
+.btn-1:hover {
+  background: #cf4e27;
+}
+.btn-1:active {
+  scale: 0.95;
+  opacity: 0.95;
+}

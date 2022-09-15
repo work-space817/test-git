@@ -1,0 +1,130 @@
+@media (max-width: 1305px) {
+  .our-services,
+  .how-1-section,
+  .how-2-section {
+    width: 84%;
+  }
+  .diagnostics {
+    grid-template-columns: repeat(2, 296px);
+    grid-template-rows: repeat(6, 232px);
+    justify-content: center;
+  }
+
+  .item-1 {
+    grid-area: 1 / 1 / 4 / 3;
+  }
+  .item-2 {
+    grid-area: 4 / 1 / 5 / 2;
+  }
+  .item-3 {
+    grid-area: 4 / 2 / 5 / 3;
+  }
+  .item-4 {
+    grid-area: 5 / 1 / 6 / 2;
+  }
+  .item-5 {
+    grid-area: 5 / 2 / 6 / 3;
+  }
+  .item-6 {
+    grid-area: 6 / 1 / 7 / 2;
+  }
+  .item-7 {
+    grid-area: 6 / 2 / 7 / 3;
+  }
+}
+
+@media (max-width: 1100px) {
+  .how-1-section,
+  .how-2-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .how-2-section {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .how-2-section-left img {
+    margin-top: 30px;
+  }
+  .how-1-section-left,
+  .how-1-section-right,
+  .how-2-section-right,
+  .how-2-section-left {
+    width: 84%;
+  }
+  .how-2-section-right .btn-1 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .our-services-info {
+    opacity: 0.9;
+    width: 100%;
+  }
+  .our-services-image {
+    position: absolute;
+    width: 83%;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 700px) {
+  .our-services-info {
+    padding: 0px 20px 0px 20px;
+  }
+
+  .diagnostics {
+    grid-template-columns: 356px;
+    grid-template-rows: repeat(9, 332px);
+  }
+  .diagnostics-item-main > img {
+    width: 100%;
+  }
+  .diagnostics-item:hover {
+    background: #ff6433;
+    transform: scale(1);
+    transition-duration: 500ms;
+  }
+
+  .item-1 {
+    grid-area: 1 / 1 / 4 / 2;
+  }
+  .item-2 {
+    grid-area: 4 / 1 / 5 / 2;
+  }
+  .item-3 {
+    grid-area: 5 / 1 / 6 / 2;
+  }
+  .item-4 {
+    grid-area: 6 / 1 / 7 / 2;
+  }
+  .item-5 {
+    grid-area: 7 / 1 / 8 / 2;
+  }
+  .item-6 {
+    grid-area: 8 / 1 / 9 / 2;
+  }
+  .item-7 {
+    grid-area: 9 / 1 / 10 / 2;
+  }
+}
+
+@media (max-width: 499px) {
+  .our-services-info h1 {
+    font-size: 44px;
+    line-height: 64px;
+  }
+  .how-1-section-left h3 {
+    font-size: 34px;
+    line-height: 55px;
+  }
+  .how-1-section-left-text p {
+    font-size: 18px;
+    line-height: 36px;
+  }
+  .how-2-section-right h1 {
+    font-size: 35px;
+    line-height: 125%;
+  }
+}
