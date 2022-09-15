@@ -290,8 +290,6 @@ body {
   width: 100%;
   border: none;
   height: 72px;
-}
-.quote-input input::placeholder {
   padding-left: 40px;
 }
 
