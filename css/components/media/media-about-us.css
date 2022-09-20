@@ -1,33 +1,234 @@
 @media (max-width: 1305px) {
-  .our-services {
+  .steps,
+  .features-section,
+  .experience,
+  .team-section {
     width: 84%;
+  }
+  .third-section {
+    flex-direction: column;
+  }
+  .color-sections {
+    width: 640px;
+  }
+  .features-item {
+    width: 350px;
+  }
+  .team-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 32px;
+    grid-row-gap: 32px;
+  }
+
+  .team-item-grid-1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .team-item-grid-2 {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .team-item-grid-3 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .team-item-grid-4 {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+  .team-item-grid-5 {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+  .team-item-grid-6 {
+    grid-area: 3 / 2 / 4 / 3;
   }
 }
 
 @media (max-width: 1100px) {
+  .features-block {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 1px;
+    grid-row-gap: 0px;
+  }
+  .features-item {
+    width: 425px;
+  }
+  .features-item-grid-1 {
+    grid-area: 1 / 1 / 2 / 3;
+  }
+  .features-item-grid-2 {
+    grid-area: 1 / 3 / 2 / 5;
+  }
+  .features-item-grid-3 {
+    margin-top: 1px;
+    grid-area: 2 / 2 / 3 / 4;
+  }
+  .features-section h1 {
+    width: 90%;
+  }
+  .experience {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 20px;
+  }
+
+  .number-item-1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .number-item-2 {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .number-item-3 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .number-item-4 {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+  .team-section {
+    width: 94%;
+  }
 }
 
 @media (max-width: 900px) {
-  .our-services-info {
+  .about-us-info {
     opacity: 0.9;
     width: 100%;
   }
-  .our-services-image {
+  .about-us-image {
     position: absolute;
-    width: 83%;
+    width: 100%;
     background-size: cover;
+  }
+  .steps {
+    flex-direction: column;
+    align-items: center;
+  }
+  .steps-left {
+    width: 84%;
+  }
+  .steps-right {
+    width: 100%;
+  }
+  .features-item {
+    width: 348px;
+  }
+  .team-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 32px;
+    grid-row-gap: 32px;
+    justify-items: center;
+  }
+
+  .team-item-grid-1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .team-item-grid-2 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .team-item-grid-3 {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+  .team-item-grid-4 {
+    grid-area: 4 / 1 / 5 / 2;
+  }
+  .team-item-grid-5 {
+    grid-area: 5 / 1 / 6 / 2;
+  }
+  .team-item-grid-6 {
+    grid-area: 6 / 1 / 7 / 2;
   }
 }
 
 @media (max-width: 700px) {
-  .our-services-info {
+  .about-us-info {
     padding: 0px 20px 0px 20px;
+  }
+  .color-sections {
+    width: 500px;
+  }
+  .features-block {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 1px;
+    grid-row-gap: 0px;
+  }
+
+  .features-item-grid-1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .features-item-grid-2 {
+    grid-area: 2 / 1 / 3 / 2;
+    margin-top: 1px;
+  }
+  .features-item-grid-3 {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+  .features-section h1 {
+    font-size: 48px;
+    line-height: 66px;
   }
 }
 
 @media (max-width: 499px) {
-  .our-services-info h1 {
+  .about-us-info h1 {
     font-size: 44px;
     line-height: 64px;
+  }
+  .steps-info h1 {
+    font-size: 34px;
+    line-height: 44px;
+  }
+  .steps-info p {
+    font-size: 18px;
+    line-height: 34px;
+  }
+  .steps-left-text > p:first-child {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .steps-left-text > p:last-child {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .color-sections {
+    width: 375px;
+  }
+  .color-info {
+    width: 77%;
+  }
+  .color-info p:first-child {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .color-info p:last-child {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .features-section h1 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .experience {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .number-item-1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .number-item-2 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .number-item-3 {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+  .number-item-4 {
+    grid-area: 4 / 1 / 5 / 2;
+  }
+  .team-item {
+    width: 350px;
   }
 }
