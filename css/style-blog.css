@@ -1,6 +1,6 @@
 @import url(./fonts/fonts.css);
 @import url(./components/header.css);
-@import url(./components/cta.css);
+/* @import url(./components/cta.css); */
 @import url(./components/footer.css);
 
 html {
@@ -256,7 +256,7 @@ body {
   display: flex;
 }
 .CTA-bg-left {
-  background-image: url(/img/picture/home-page/CTA-1.png);
+  background-image: url(../img/picture/home-page/CTA-1.png);
   width: 55%;
   display: flex;
   justify-content: flex-end;
@@ -285,14 +285,14 @@ body {
   color: #fff;
 }
 .CTA-bg-right {
-  background-image: url(/img/picture/home-page/CTA-2.png);
+  background-image: url(../img/picture/home-page/CTA-2.png);
   width: 45%;
   z-index: 1;
 }
 @media (max-width: 1100px) {
   .CTA-bg-left {
     width: 100%;
-    background-image: url(/img/picture/home-page/CTA-2.png);
+    background-image: url(../img/picture/home-page/CTA-2.png);
   }
   .orange-block {
     background-color: #ff6433;
